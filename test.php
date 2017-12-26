@@ -7,10 +7,10 @@ $user1 = new Users();
   
 // Set the value of the class’ property.
 // For this aim, we use a method that we created in the parent
-$user1 -> setName('Sugih');
-$user1 -> setFullName('Sugih Liawan');
-$user1 -> setEmail('sugihlia@gmail.com');
-$user1 -> setBirthday('31-05-1982');
+$user1 -> setName('Name');
+$user1 -> setFullName('Full Name');
+$user1 -> setEmail('fullname@gmail.com');
+$user1 -> setBirthday('dd-mm-yyyy');
 $user1 -> setPets('cat');
   
 //Use another method that the child class inherited from the parent class
@@ -20,10 +20,10 @@ echo '<br/>-------------------------------<br/>';
 
 $admin1 = new Admins();
 
-$admin1 -> setName('Cornelius');
-$admin1 -> setFullName('Cornelius Wang Zhi');
-$admin1 -> setEmail('thorrevenge3105@gmail.com');
-$admin1 -> setPassword(md5('cornelius3105'));
+$admin1 -> setName('Name');
+$admin1 -> setFullName('Full Name');
+$admin1 -> setEmail('full.name@gmail.com');
+$admin1 -> setPassword(md5('password'));
 
 echo $admin1 -> helloAdmin();
 
